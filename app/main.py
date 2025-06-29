@@ -6,12 +6,12 @@ from . import models, schemas, crud
 from .database import SessionLocal, engine, Base
 import os
 
-# إنشاء الجداول
+
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="Cloud Bus Pass System")
 
-# ربط ملفات frontend
+
 app.mount("/static", StaticFiles(directory="app/frontend"), name="static")
 
 @app.get("/", response_class=FileResponse)
