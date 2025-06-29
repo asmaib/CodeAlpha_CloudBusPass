@@ -80,7 +80,7 @@ CodeAlpha_CloudBusPass/
 
 - 🎫 **Initial View**  
   The user is greeted with a modern, clean UI to enter their name and select a bus, and the form auto-fills relevant trip information.
-  ![Initial View](assets/Screenshot1_bus.png)
+  ![Initial View](assets/Screensho1_bus.png)
 
 
 - ✅ **Successful Booking**  
