@@ -69,8 +69,8 @@ CodeAlpha_CloudBusPass/
 
 1. User enters name and selects a bus from the dropdown.
 2. Price, origin, and destination are auto-filled.
-3. User enters a seat number.
-4. System checks availability if the seat is already booked or not and stores data in SQLite DB.
+3. The user enters a seat number.
+4. System checks availability if the seat is already booked or not, and stores data in the SQLite DB.
 5. Displays a success or error message accordingly.
 
 ---
@@ -79,16 +79,15 @@ CodeAlpha_CloudBusPass/
 
 
 - 🎫 **Initial View**  
-  The user is greeted with a modern, clean UI to enters name and select a bus, and the form auto-fills relevant trip information.
+  The user is greeted with a modern, clean UI to enter their name and select a bus, and the form auto-fills relevant trip information.
   ![Initial View](assets/Screenshot1_bus.png)
 
 
 - ✅ **Successful Booking**  
-  When booking is successful, a green success message confirms the reservation with a ticket info.
+  When booking is successful, a green success message confirms the reservation with ticket info.
   ![Success](assets/Screenshot2_bus.png)
   
-
-  - 🚫 **Seat Already Booked**  
+- 🚫 **Seat Already Booked**  
   If the user tries to book a seat that’s already reserved, a red error message is displayed.
   ![Error](assets/Screenshot3_bus.png)
 
